@@ -1,0 +1,80 @@
+* {
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+section {
+    display: flex;
+
+
+}
+
+label {
+    margin-left: 80px;
+    margin: 5px;
+}
+
+input {
+    margin-left: 80px;
+    margin: 5px;
+}
+
+select {
+    margin-left: 80px;
+    margin: 5px;
+}
+
+.bac {
+
+    margin: 40px;
+    background-image: url("img/bac.jpg");
+    background-size: cover;
+    margin-right: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 115px;
+}
+
+nav {
+    display: flex;
+
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div ul {
+    display: flex;
+
+    list-style: none;
+    align-items: center;
+}
+
+nav div ul li:hover {
+    background-color: aqua;
+
+}
+
+div ul li a {
+    text-decoration: none;
+
+}
